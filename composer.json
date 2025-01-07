@@ -1,5 +1,5 @@
 {
-  "name": "diffrentdigital/remove-html-comments",
+  "name": "DiffrentDigital/remove-html-comments",
   "description": "Removes HTML comments from Statamic responses.",
   "type": "statamic-addon",
   "license": "MIT",

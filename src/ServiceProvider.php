@@ -3,7 +3,7 @@
 namespace diffrentdigital\RemoveHtmlComments;
 
 use Statamic\Providers\AddonServiceProvider;
-use diffrentdigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
+use DiffrentDigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
 
 class ServiceProvider extends AddonServiceProvider
 {
