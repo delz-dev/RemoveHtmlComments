@@ -11,7 +11,6 @@ class ServiceProvider extends AddonServiceProvider
     {
         parent::boot();
 
-        // Register middleware for the `web` group
         $this->app['router']->pushMiddlewareToGroup('web', RemoveHtmlComments::class);
     }
 }
