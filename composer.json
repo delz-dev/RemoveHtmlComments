@@ -1,0 +1,19 @@
+{
+        "name": "vendor/remove-html-comments",
+        "description": "Removes HTML comments from Statamic responses.",
+        "type": "statamic-addon",
+        "require": {
+            "statamic/cms": "^4.0"
+        },
+        "autoload": {
+            "psr-4": {
+                "Vendor\\RemoveHtmlComments\\": "src/"
+            }
+        },
+        "extra": {
+            "statamic": {
+                "name": "Remove Html Comments",
+                "namespace": "Vendor\\RemoveHtmlComments\\"
+            }
+        }
+    }
