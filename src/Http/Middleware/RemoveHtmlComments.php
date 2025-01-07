@@ -1,6 +1,6 @@
 <?php
 
-namespace DiffrentDigital\RemoveHtmlComments\Http\Middleware;
+namespace diffrentdigital\RemoveHtmlComments\Http\Middleware;
 
 use Closure;
 
