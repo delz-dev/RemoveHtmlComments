@@ -10,16 +10,10 @@ class RemoveHtmlComments
     {
         $response = $next($request);
 
-        // Check if the response is HTML
-        $contentType = $response->headers->get('Content-Type');
-        if (str_contains($contentType, 'text/html')) {
+        if ($response->headers->get('Content-Type') === 'text/html; charset=UTF-8') {
             $content = $response->getContent();
-
-            if ($content) {
-                // Remove HTML comments
-                $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
-                $response->setContent($content);
-            }
+            $content = preg_replace('/<!--(.|\s)*?-->/', '', $content);
+            $response->setContent($content);
         }
 
         return $response;
