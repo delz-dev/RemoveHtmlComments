@@ -1,8 +1,8 @@
 # Remove HTML Comments
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/patrickdeveloper/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/patrickdeveloper/remove-html-comments)
-[![Total Downloads](https://img.shields.io/packagist/dt/patrickdeveloper/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/patrickdeveloper/remove-html-comments)
-[![License](https://img.shields.io/packagist/l/patrickdeveloper/remove-html-comments.svg?style=flat-square)](LICENSE)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/diffrentdigital/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/diffrentdigital/remove-html-comments)
+[![Total Downloads](https://img.shields.io/packagist/dt/diffrentdigital/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/diffrentdigital/remove-html-comments)
+[![License](https://img.shields.io/packagist/l/diffrentdigital/remove-html-comments.svg?style=flat-square)](LICENSE)
 
 This Statamic add-on removes HTML comments (`<!-- ... -->`) from responses before they are sent to the browser, optimizing your website's output.
 
@@ -21,7 +21,7 @@ This Statamic add-on removes HTML comments (`<!-- ... -->`) from responses befor
 You can install the package via Composer:
 
 ```bash
-composer require patrickdeveloper/remove-html-comments
+composer require diffrentdigital/remove-html-comments
 ```
 
 ---
@@ -57,7 +57,7 @@ This package is open-sourced software licensed under the [MIT license](LICENSE).
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/patrickdeveloper/remove-html-comments/issues).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/delz-dev/remove-html-comments/issues).
 
 ### To Contribute:
 
@@ -69,7 +69,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ## Acknowledgments
 
-This add-on was created by [PatrickDeveloper](https://github.com/patrickdeveloper).
+This add-on was created by [delz-dev](https://github.com/delz-dev).
 
 ---
 
