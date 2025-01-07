@@ -4,7 +4,7 @@
   "type": "statamic-addon",
   "license": "MIT",
   "require": {
-    "statamic/cms": "^5.0"
+    "statamic/cms": "^5.28.0"
   },
   "autoload": {
     "psr-4": {
