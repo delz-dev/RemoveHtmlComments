@@ -4,17 +4,17 @@
   "type": "statamic-addon",
   "license": "MIT",
   "require": {
-    "statamic/cms": "^4.0"
+    "statamic/cms": "^5.0"
   },
   "autoload": {
     "psr-4": {
-      "diffrentdigital\\RemoveHtmlComments\\": "src/"
+      "DiffrentDigital\\RemoveHtmlComments\\": "src/"
     }
   },
   "extra": {
     "statamic": {
       "name": "Remove Html Comments",
-      "namespace": "diffrentdigital\\RemoveHtmlComments\\"
+      "namespace": "DiffrentDigital\\RemoveHtmlComments\\"
     }
   }
 }
