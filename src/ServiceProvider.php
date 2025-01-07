@@ -1,9 +1,9 @@
 <?php
 
-namespace diffrentdigital\RemoveHtmlComments;
+namespace Diffrentdigital\RemoveHtmlComments;
 
 use Statamic\Providers\AddonServiceProvider;
-use diffrentdigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
+use Diffrentdigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
 
 class ServiceProvider extends AddonServiceProvider
 {

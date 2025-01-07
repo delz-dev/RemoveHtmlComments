@@ -8,13 +8,13 @@
   },
   "autoload": {
     "psr-4": {
-      "diffrentdigital\\RemoveHtmlComments\\": "src/"
+      "Diffrentdigital\\RemoveHtmlComments\\": "src/"
     }
   },
   "extra": {
     "statamic": {
       "name": "Remove Html Comments",
-      "namespace": "diffrentdigital\\RemoveHtmlComments\\"
+      "namespace": "Diffrentdigital\\RemoveHtmlComments\\"
     }
   }
 }
