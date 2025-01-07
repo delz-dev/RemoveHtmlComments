@@ -3,7 +3,7 @@
 namespace diffrentdigital\RemoveHtmlComments;
 
 use Statamic\Providers\AddonServiceProvider;
-use DiffrentDigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
+use diffrentdigital\RemoveHtmlComments\Http\Middleware\RemoveHtmlComments;
 
 class ServiceProvider extends AddonServiceProvider
 {
@@ -11,7 +11,7 @@ class ServiceProvider extends AddonServiceProvider
     {
         parent::boot();
 
-        // Add middleware to the `web` group
+        // Register middleware for the `web` group
         $this->app['router']->pushMiddlewareToGroup('web', RemoveHtmlComments::class);
     }
 }

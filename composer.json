@@ -1,5 +1,5 @@
 {
-  "name": "DiffrentDigital/remove-html-comments",
+  "name": "diffrentdigital/remove-html-comments",
   "description": "Removes HTML comments from Statamic responses.",
   "type": "statamic-addon",
   "license": "MIT",
@@ -8,13 +8,13 @@
   },
   "autoload": {
     "psr-4": {
-      "DiffrentDigital\\RemoveHtmlComments\\": "src/"
+      "diffrentdigital\\RemoveHtmlComments\\": "src/"
     }
   },
   "extra": {
     "statamic": {
       "name": "Remove Html Comments",
-      "namespace": "DiffrentDigital\\RemoveHtmlComments\\"
+      "namespace": "diffrentdigital\\RemoveHtmlComments\\"
     }
   }
 }
