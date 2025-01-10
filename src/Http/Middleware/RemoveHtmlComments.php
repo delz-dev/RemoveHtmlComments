@@ -5,26 +5,17 @@
 namespace Diffrentdigital\RemoveHtmlComments\Http\Middleware;
 
 use Closure;
+use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 
 class RemoveHtmlComments
 {
-    public function handle($request, Closure $next)
+    public function handle(Request $request, Closure $next): Response
     {
-        \Log::info('RemoveHtmlComments middleware started.');
-
         $response = $next($request);
-
-        if ($response->headers->get('Content-Type') === 'text/html; charset=UTF-8') {
-            \Log::info('Processing HTML response.');
-
-            $content = $response->getContent();
-            // Improved regex to remove HTML comments
-            $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
-            $response->setContent($content);
-
-            \Log::info('HTML comments removed.');
-        }
-
+        $content = $response->getContent();
+        $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
+        $response->setContent($content);
         return $response;
     }
 }
