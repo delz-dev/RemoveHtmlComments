@@ -18,8 +18,11 @@ class RemoveHtmlComments
             \Log::info('Processing HTML response.');
 
             $content = $response->getContent();
-            $content = preg_replace('/<!--(.|\s)*?-->/', '', $content);
+            // Improved regex to remove HTML comments
+            $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
             $response->setContent($content);
+
+            \Log::info('HTML comments removed.');
         }
 
         return $response;
