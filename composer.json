@@ -2,7 +2,7 @@
   "name": "diffrentdigital/remove-html-comments",
   "description": "A Statamic addon to remove HTML comments from responses.",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Diffrentdigital\\RemoveHtmlComments\\": "src"
