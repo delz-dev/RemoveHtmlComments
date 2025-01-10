@@ -6,5 +6,5 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'diffrentdigital\\RemoveHtmlComments\\' => array($baseDir . '/src'),
+    'Diffrentdigital\\RemoveHtmlComments\\' => array($baseDir . '/src'),
 );
