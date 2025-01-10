@@ -1,15 +1,18 @@
 {
   "name": "diffrentdigital/remove-html-comments",
   "description": "A Statamic addon to remove HTML comments from responses.",
-  "type": "statamic-addon",
-  "license": "MIT",
-  "require": {
-    "statamic/cms": "^5.0"
-  },
   "autoload": {
     "psr-4": {
-      "Diffrentdigital\\RemoveHtmlComments\\": "src/"
+      "Diffrentdigital\\RemoveHtmlComments\\": "src"
     }
+  },
+  "config": {
+    "allow-plugins": {
+      "pixelfear/composer-dist-plugin": true
+    }
+  },
+  "require": {
+    "statamic/cms": "^5.0"
   },
   "extra": {
     "statamic": {
