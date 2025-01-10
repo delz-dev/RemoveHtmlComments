@@ -13,9 +13,14 @@ class RemoveHtmlComments
     public function handle(Request $request, Closure $next): Response
     {
         $response = $next($request);
-        $content = $response->getContent();
-        $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
-        $response->setContent($content);
+
+        if (strpos($response->headers->get('Content-Type'), 'text/html') !== false) {
+            $content = $response->getContent();
+            // Improved regex to remove HTML comments
+            $content = preg_replace('/<!--[\s\S]*?-->/', '', $content);
+            $response->setContent($content);
+        }
+
         return $response;
     }
 }
