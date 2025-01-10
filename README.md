@@ -73,6 +73,10 @@ This add-on was created by [delz-dev](https://github.com/delz-dev).
 
 ---
 
+## Functionality
+
+This add-on removes HTML comments from responses, but only when the application is running in the production environment.
+
 ## Support
 
 If you find this add-on useful, please consider starring the repository on GitHub or sharing it with others. 😊
