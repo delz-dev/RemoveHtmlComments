@@ -1,8 +1,6 @@
 # Remove HTML Comments
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/diffrentdigital/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/diffrentdigital/remove-html-comments)
 [![Total Downloads](https://img.shields.io/packagist/dt/diffrentdigital/remove-html-comments.svg?style=flat-square)](https://packagist.org/packages/diffrentdigital/remove-html-comments)
-[![License](https://img.shields.io/packagist/l/diffrentdigital/remove-html-comments.svg?style=flat-square)](LICENSE)
 
 This Statamic add-on removes HTML comments (`<!-- ... -->`) from responses before they are sent to the browser, optimizing your website's output.
 
