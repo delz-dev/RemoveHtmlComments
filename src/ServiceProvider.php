@@ -12,4 +12,8 @@ class ServiceProvider extends AddonServiceProvider
             RemoveHtmlComments::class,
         ],
     ];
+    public function bootAddon()
+    {
+        RemoveHtmlComments::register();
+    }
 }
